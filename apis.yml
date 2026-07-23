@@ -1,7 +1,28 @@
 aid: 83-sciences
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/83-sciences.png
 name: 83 Sciences
-description: 83 Sciences is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  83 Sciences is an AI-native materials-discovery company (Y Combinator Summer 2026)
+  that helps research labs unlock value from unpublished and discarded experimental
+  data. Roughly 90% of experimental data never reaches publication; 83 Sciences works
+  on-site with researchers to capture and structure that hidden data into a queryable
+  database, then applies AI-powered analysis and generative models to learn from a
+  lab's full experimental history — including failed experiments — to surface novel
+  materials, co-authored manuscripts, and patents. Founded by researchers from MIT,
+  Stanford, Harvard, and Columbia and based in San Francisco. The company currently
+  ships no public API or developer surface; this profile tracks its identity for the
+  API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/83-sciences/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +35,31 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Materials Science
+- Artificial Intelligence
+- Research Data
+- Scientific Discovery
+- Life Sciences
+- Machine Learning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/83-sciences-domain-security.yml
+- type: Website
+  url: https://83sciences.ai
+- type: Login
+  url: https://platform.83sciences.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/83sciences.ai
+- type: Twitter
+  url: https://x.com/83sciences
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
